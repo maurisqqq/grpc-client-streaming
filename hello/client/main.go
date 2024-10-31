@@ -22,5 +22,6 @@ func main() {
 	c := pb.NewHelloServiceClient(conn)
 
 	//doHello(c)
-	doHelloManyTimes(c)
+	//doHelloManyTimes(c)
+	doLongHello(c)
 }
