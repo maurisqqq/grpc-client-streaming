@@ -23,5 +23,6 @@ func main() {
 
 	//doHello(c)
 	//doHelloManyTimes(c)
-	doLongHello(c)
+	//doLongHello(c)
+	doHelloEveryone(c)
 }
