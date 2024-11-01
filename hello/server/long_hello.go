@@ -4,7 +4,7 @@ import (
 	"io"
 	"log"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-client-streaming/hello/proto"
 )
 
 func (*Server) LongHello(stream pb.HelloService_LongHelloServer) error {

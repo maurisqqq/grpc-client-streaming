@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hello;
 
-option go_package = "./grpc-unary/hello/proto";
+option go_package = "./grpc-client-streaming/hello/proto";
 
 message HelloRequest {
   string first_name = 1;

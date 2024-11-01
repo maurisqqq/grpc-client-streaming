@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "grpc-unary/hello/proto"
+	pb "grpc-client-streaming/hello/proto"
 
 	"google.golang.org/grpc"
 )
